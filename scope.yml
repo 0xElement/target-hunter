@@ -1,0 +1,18 @@
+# CHANGE THIS FILE FOR EACH AUTHORIZED PROGRAM.
+target: vonage.com
+
+allowed_domains:
+  - vonage.com
+  - "*.vonage.com"
+
+# Add explicitly excluded hosts/domains here.
+excluded_domains: []
+
+# Only organizations explicitly authorized by the program.
+github_orgs:
+  - vonage
+
+settings:
+  max_http_requests_per_second: 5
+  max_repo_count: 20
+  passive_verification: true

@@ -1,0 +1,35 @@
+name: AI Analyze
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install OpenCode
+        run: npm install -g opencode-ai
+      - name: Build analysis context
+        run: python3 scripts/build_context.py
+      - name: Multi-model analysis
+        env:
+          MODELS: "opencode/big-pickle opencode/nemotron-3-ultra-free opencode/longcat-2.0-free opencode/ling-3.0-flash-free opencode/laguna-s-2.1-free"
+        run: ./scripts/multi_model.sh
+      - name: Upload leads
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-leads-${{ github.run_number }}
+          path: leads/
+          if-no-files-found: warn
+      - name: Persist leads
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add leads/ knowledge/context.md || true
+          git diff --cached --quiet || git commit -m 'Update AI candidate leads'
+          git push || true

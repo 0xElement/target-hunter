@@ -1,0 +1,31 @@
+name: Triage & Passive Verify
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Python dependencies
+        run: python3 -m pip install --disable-pip-version-check pyyaml requests
+      - name: Passive verification and triage
+        run: python3 scripts/triage.py
+      - name: Upload triage
+        uses: actions/upload-artifact@v4
+        with:
+          name: triage-${{ github.run_number }}
+          path: triage/
+          if-no-files-found: warn
+      - name: Persist triage
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add triage/ || true
+          git diff --cached --quiet || git commit -m 'Update passive triage'
+          git push || true
