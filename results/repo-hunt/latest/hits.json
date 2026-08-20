@@ -18,6 +18,10 @@
     "note": "Potential match; secret material intentionally not stored."
   },
   {
+    "repository": "Vonage/vonage-curl-code-snippets",
+    "error": "HTTP Error 504: Gateway Timeout"
+  },
+  {
     "repository": "Vonage/vonage-node-sdk",
     "path": "packages/auth/__tests__/__dataSets__/signature.ts",
     "pattern": "api_key_hint",
@@ -73,15 +77,7 @@
   },
   {
     "repository": "Vonage/vonage-video-react-native-sdk",
-    "path": ".github/workflows/ci-pr-tests.yml",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-react-native-sdk",
-    "path": "React-native-TestApp/metro.config.js",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
+    "error": "HTTP Error 504: Gateway Timeout"
   },
   {
     "repository": "Vonage/vonage-video-android-app",
