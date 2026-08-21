@@ -24,71 +24,153 @@
     "note": "Potential match; secret material intentionally not stored."
   },
   {
-    "repository": "Vonage/vonage-video-windows-sdk-samples",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-video-ios-sdk-samples",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-video-client-sdk-swift",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-client-sdk-ios",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-client-sdk-video-transformers",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "repository": "Vonage/vonage-video-react-native-sdk",
+    "path": ".github/workflows/ci-pr-tests.yml",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-video-react-native-sdk",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-node-code-snippets",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-php-sdk-core",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-java-sdk",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-curl-code-snippets",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": "React-native-TestApp/metro.config.js",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-node-sdk",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": "packages/auth/__tests__/__dataSets__/signature.ts",
+    "pattern": "api_key_hint",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-video-react-app",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": "backend/helpers/__mocks__/config.ts",
+    "pattern": "api_key_hint",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
-    "repository": "Vonage/vonage-laravel",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "backend/tests/helpers/config.test.ts",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "eslint.config.mjs",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "frontend/vite.config.ts",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "integration-tests/playwright.config.ts",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "integration-tests/test-api/apiIntegrity.test.ts",
+    "pattern": "api_key_hint",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "integration-tests/test-api/apiIntegrity.test.ts",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "libs/api/src/core/VideoClient/VideoClient.test.ts",
+    "pattern": "api_key_hint",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-video-android-app",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-video-connector-server-samples",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": ".github/workflows/maestro.yml",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-video-react-native-sdk-samples",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": "Archiving/metro.config.js",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-native-sdk-samples",
+    "path": "ArchivingNewArchitecture/metro.config.js",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-native-sdk-samples",
+    "path": "BackgroundBlur/metro.config.js",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-native-sdk-samples",
+    "path": "BasicVideoChat/metro.config.js",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-native-sdk-samples",
+    "path": "BasicVideoChatNewArchitecture/metro.config.js",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-native-sdk-samples",
+    "path": "Multiparty/metro.config.js",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-python-sdk",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": "application/tests/data/create_application_basic.json",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "http_client/tests/data/dummy_private_key.txt",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "http_client/tests/test_auth.py",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "jwt/tests/data/private_key.txt",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "network_auth/tests/data/token_request.json",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "network_auth/tests/test_network_auth.py",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "network_number_verification/tests/data/token_request.json",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
   }
 ]
