@@ -1,17 +1,5 @@
 [
   {
-    "repository": "Vonage/vonage-video-react-native-sdk",
-    "path": ".github/workflows/ci-pr-tests.yml",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-react-native-sdk",
-    "path": "React-native-TestApp/metro.config.js",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
     "repository": "Vonage/vonage-cli",
     "path": "__tests__/test.private.key",
     "pattern": "private_key",
@@ -27,6 +15,18 @@
     "repository": "Vonage/vonage-cli",
     "path": "src/ux/dumpAuth.js",
     "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-native-sdk",
+    "path": ".github/workflows/ci-pr-tests.yml",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-native-sdk",
+    "path": "React-native-TestApp/metro.config.js",
+    "pattern": "internal_host",
     "note": "Potential match; secret material intentionally not stored."
   },
   {
