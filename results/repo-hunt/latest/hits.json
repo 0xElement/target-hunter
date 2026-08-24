@@ -36,18 +36,6 @@
     "note": "Potential match; secret material intentionally not stored."
   },
   {
-    "repository": "Vonage/vonage-video-ios-sdk-samples",
-    "error": "HTTP Error 504: Gateway Timeout"
-  },
-  {
-    "repository": "Vonage/vonage-video-client-sdk-swift",
-    "error": "HTTP Error 504: Gateway Timeout"
-  },
-  {
-    "repository": "Vonage/vonage-node-code-snippets",
-    "error": "HTTP Error 504: Gateway Timeout"
-  },
-  {
     "repository": "Vonage/vonage-node-sdk",
     "path": "packages/auth/__tests__/__dataSets__/signature.ts",
     "pattern": "api_key_hint",
