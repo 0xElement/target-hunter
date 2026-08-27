@@ -1,5 +1,11 @@
 [
   {
+    "repository": "Vonage/vonage-video-android-sdk-samples",
+    "path": "JetpackCompose/CustomAudioDriver/app/src/main/java/com/example/customaudiodriver/VonageVideoConfig.kt",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-video-react-native-sdk",
     "path": ".github/workflows/ci-pr-tests.yml",
     "pattern": "internal_host",

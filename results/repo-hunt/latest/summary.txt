@@ -1,3 +1,3 @@
 Organizations: vonage
-Potential sanitized hits: 23
+Potential sanitized hits: 24
 No secret values are stored.
