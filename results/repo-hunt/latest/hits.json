@@ -73,12 +73,6 @@
   },
   {
     "repository": "Vonage/vonage-python-sdk",
-    "path": "http_client/tests/test_auth.py",
-    "pattern": "jwt",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-python-sdk",
     "path": "jwt/tests/data/private_key.txt",
     "pattern": "private_key",
     "note": "Potential match; secret material intentionally not stored."
