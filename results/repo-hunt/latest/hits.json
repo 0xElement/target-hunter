@@ -7,78 +7,158 @@
   },
   {
     "repository": "Vonage/vonage-video-ios-app",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": ".github/workflows/maestro.yml",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-ios-app",
+    "path": ".maestro/flows/deep-link-session-key.yaml",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-kotlin-sdk",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vivid",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-curl-code-snippets",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": "src/test/resources/com/vonage/client/kt/application_key",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-python-code-snippets",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-node-code-snippets",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": ".env.dist",
+    "pattern": "api_key_hint",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-python-sdk",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": "application/tests/data/create_application_basic.json",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
-    "repository": "Vonage/vonage-java-sdk",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "http_client/tests/data/dummy_private_key.txt",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "http_client/tests/test_auth.py",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "jwt/tests/data/private_key.txt",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "network_auth/tests/data/token_request.json",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "network_auth/tests/test_network_auth.py",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "network_number_verification/tests/data/token_request.json",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-video-react-app",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": "backend/helpers/__mocks__/config.ts",
+    "pattern": "api_key_hint",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
-    "repository": "Vonage/vonage-client-sdk-ios",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "backend/tests/helpers/config.test.ts",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "eslint.config.mjs",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "frontend/vite.config.ts",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "integration-tests/playwright.config.ts",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "integration-tests/test-api/apiIntegrity.test.ts",
+    "pattern": "api_key_hint",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "integration-tests/test-api/apiIntegrity.test.ts",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-app",
+    "path": "libs/api/src/core/VideoClient/VideoClient.test.ts",
+    "pattern": "api_key_hint",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-video-android-sdk-samples",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": "JetpackCompose/CustomAudioDriver/app/src/main/java/com/example/customaudiodriver/VonageVideoConfig.kt",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-video-react-native-sdk",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": ".github/workflows/ci-pr-tests.yml",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-native-sdk",
+    "path": "React-native-TestApp/metro.config.js",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-cli",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": "__tests__/test.private.key",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
-    "repository": "Vonage/vonage-video-ios-sdk-samples",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "repository": "Vonage/vonage-cli",
+    "path": "__tests__/utils/coercePrivateKey.test.js",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
-    "repository": "Vonage/vonage-video-windows-sdk-samples",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-go-sdk",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "repository": "Vonage/vonage-cli",
+    "path": "src/ux/dumpAuth.js",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
   },
   {
     "repository": "Vonage/vonage-video-api-web-samples",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-video-api-network-test",
-    "error": "HTTP Error 403: rate limit exceeded"
-  },
-  {
-    "repository": "Vonage/vonage-video-client-sdk-swift",
-    "error": "HTTP Error 403: rate limit exceeded"
+    "path": "SIP/js/config.js",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
   }
 ]
