@@ -1,5 +1,11 @@
 [
   {
+    "repository": "Vonage/vonage-ruby-sdk",
+    "path": "test/private_key.txt",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-node-sdk",
     "path": "packages/auth/__tests__/__dataSets__/signature.ts",
     "pattern": "api_key_hint",
