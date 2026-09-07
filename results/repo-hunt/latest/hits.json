@@ -1,5 +1,23 @@
 [
   {
+    "repository": "Vonage/vonage-video-react-native-sdk",
+    "path": ".github/workflows/ci-ios27-validation.yml",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-native-sdk",
+    "path": ".github/workflows/ci-pr-tests.yml",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-react-native-sdk",
+    "path": "React-native-TestApp/metro.config.js",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-ruby-sdk",
     "path": "test/private_key.txt",
     "pattern": "private_key",
@@ -129,18 +147,6 @@
     "repository": "Vonage/vonage-video-android-sdk-samples",
     "path": "JetpackCompose/CustomAudioDriver/app/src/main/java/com/example/customaudiodriver/VonageVideoConfig.kt",
     "pattern": "jwt",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-react-native-sdk",
-    "path": ".github/workflows/ci-pr-tests.yml",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-react-native-sdk",
-    "path": "React-native-TestApp/metro.config.js",
-    "pattern": "internal_host",
     "note": "Potential match; secret material intentionally not stored."
   },
   {
