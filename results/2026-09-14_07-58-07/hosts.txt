@@ -1,5 +1,9 @@
 911notification.vonage.com
 9gcommunications.vonage.com
+Clearpass.vonage.com
+Lyncdiscover.vonage.com
+LyncdiscoverInternal.vonage.com
+Orachkprint.vonage.com
 a.vonage.com
 aasea01.vbcforteams.vonage.com
 aassa01.vbcforteams.vonage.com
@@ -607,6 +611,7 @@ login.vonage.com
 logs.vonage.com
 lync.vonage.com
 lyncdiscover.vonage.com
+lyncdiscoverInternal.vonage.com
 lyncdiscoverinternal.vonage.com
 m.icon.resources.vonage.com
 mail.aassa01.vbcforteams.vonage.com
@@ -1046,6 +1051,7 @@ volta-react.vonage.com
 volta-web-components.vonage.com
 volta.vonage.com
 vonage-pardot.vonage.com
+vonage.com
 vonage.enterpriseportal.vonage.com
 vpn.fax-services.vonage.com
 vsupport.vonage.com
