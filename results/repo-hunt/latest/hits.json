@@ -1,5 +1,29 @@
 [
   {
+    "repository": "Vonage/vonage-node-sdk",
+    "path": "packages/auth/__tests__/__dataSets__/signature.ts",
+    "pattern": "api_key_hint",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-cli",
+    "path": "__tests__/test.private.key",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-cli",
+    "path": "__tests__/utils/coercePrivateKey.test.js",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-cli",
+    "path": "src/ux/dumpAuth.js",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-python-sdk",
     "path": "application/tests/data/create_application_basic.json",
     "pattern": "private_key",
@@ -54,24 +78,6 @@
     "note": "Potential match; secret material intentionally not stored."
   },
   {
-    "repository": "Vonage/vonage-cli",
-    "path": "__tests__/test.private.key",
-    "pattern": "private_key",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-cli",
-    "path": "__tests__/utils/coercePrivateKey.test.js",
-    "pattern": "private_key",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-cli",
-    "path": "src/ux/dumpAuth.js",
-    "pattern": "private_key",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
     "repository": "Vonage/vonage-video-api-web-samples",
     "path": "SIP/js/config.js",
     "pattern": "internal_host",
@@ -99,12 +105,6 @@
     "repository": "Vonage/vonage-video-react-native-sdk",
     "path": "React-native-TestApp/metro.config.js",
     "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-node-sdk",
-    "path": "packages/auth/__tests__/__dataSets__/signature.ts",
-    "pattern": "api_key_hint",
     "note": "Potential match; secret material intentionally not stored."
   },
   {
