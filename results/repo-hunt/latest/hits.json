@@ -1,5 +1,53 @@
 [
   {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "application/tests/data/create_application_basic.json",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "http_client/tests/data/dummy_private_key.txt",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "http_client/tests/test_auth.py",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "jwt/tests/data/private_key.txt",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "network_auth/tests/data/token_request.json",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "network_auth/tests/test_network_auth.py",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-sdk",
+    "path": "network_number_verification/tests/data/token_request.json",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-ruby-sdk",
+    "path": "test/private_key.txt",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-dotnet-sdk",
     "path": "Vonage.Test/Common/TestHelpers/TokenHelper.cs",
     "pattern": "private_key",
@@ -60,12 +108,6 @@
     "note": "Potential match; secret material intentionally not stored."
   },
   {
-    "repository": "Vonage/vonage-ruby-sdk",
-    "path": "test/private_key.txt",
-    "pattern": "private_key",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
     "repository": "Vonage/vonage-video-ios-app",
     "path": ".github/workflows/maestro.yml",
     "pattern": "internal_host",
@@ -87,48 +129,6 @@
     "repository": "Vonage/vonage-python-code-snippets",
     "path": ".env.dist",
     "pattern": "api_key_hint",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-python-sdk",
-    "path": "application/tests/data/create_application_basic.json",
-    "pattern": "private_key",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-python-sdk",
-    "path": "http_client/tests/data/dummy_private_key.txt",
-    "pattern": "private_key",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-python-sdk",
-    "path": "http_client/tests/test_auth.py",
-    "pattern": "jwt",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-python-sdk",
-    "path": "jwt/tests/data/private_key.txt",
-    "pattern": "private_key",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-python-sdk",
-    "path": "network_auth/tests/data/token_request.json",
-    "pattern": "jwt",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-python-sdk",
-    "path": "network_auth/tests/test_network_auth.py",
-    "pattern": "jwt",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-python-sdk",
-    "path": "network_number_verification/tests/data/token_request.json",
-    "pattern": "jwt",
     "note": "Potential match; secret material intentionally not stored."
   }
 ]
