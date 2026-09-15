@@ -1,5 +1,11 @@
 [
   {
+    "repository": "Vonage/vonage-dotnet-sdk",
+    "path": "Vonage.Test/Common/TestHelpers/TokenHelper.cs",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-cli",
     "path": "__tests__/test.private.key",
     "pattern": "private_key",
@@ -123,54 +129,6 @@
     "repository": "Vonage/vonage-python-sdk",
     "path": "network_number_verification/tests/data/token_request.json",
     "pattern": "jwt",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-react-app",
-    "path": "backend/helpers/__mocks__/config.ts",
-    "pattern": "api_key_hint",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-react-app",
-    "path": "backend/tests/helpers/config.test.ts",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-react-app",
-    "path": "eslint.config.mjs",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-react-app",
-    "path": "frontend/vite.config.ts",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-react-app",
-    "path": "integration-tests/playwright.config.ts",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-react-app",
-    "path": "integration-tests/test-api/apiIntegrity.test.ts",
-    "pattern": "api_key_hint",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-react-app",
-    "path": "integration-tests/test-api/apiIntegrity.test.ts",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-react-app",
-    "path": "libs/api/src/core/VideoClient/VideoClient.test.ts",
-    "pattern": "api_key_hint",
     "note": "Potential match; secret material intentionally not stored."
   }
 ]
