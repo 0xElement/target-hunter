@@ -1,5 +1,29 @@
 [
   {
+    "repository": "Vonage/vonage-video-ios-app",
+    "path": ".github/workflows/maestro.yml",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-ios-app",
+    "path": ".maestro/flows/deep-link-session-key.yaml",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-kotlin-sdk",
+    "path": "src/test/resources/com/vonage/client/kt/application_key",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-python-code-snippets",
+    "path": ".env.dist",
+    "pattern": "api_key_hint",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-python-sdk",
     "path": "application/tests/data/create_application_basic.json",
     "pattern": "private_key",
@@ -42,6 +66,12 @@
     "note": "Potential match; secret material intentionally not stored."
   },
   {
+    "repository": "Vonage/vonage-node-sdk",
+    "path": "packages/auth/__tests__/__dataSets__/signature.ts",
+    "pattern": "api_key_hint",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-video-react-native-sdk",
     "path": ".github/workflows/ci-ios27-validation.yml",
     "pattern": "internal_host",
@@ -57,12 +87,6 @@
     "repository": "Vonage/vonage-video-react-native-sdk",
     "path": "React-native-TestApp/metro.config.js",
     "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-node-sdk",
-    "path": "packages/auth/__tests__/__dataSets__/signature.ts",
-    "pattern": "api_key_hint",
     "note": "Potential match; secret material intentionally not stored."
   },
   {
@@ -105,24 +129,6 @@
     "repository": "Vonage/cloud-runtime-cli",
     "path": "tests/integration/docker-compose.yml",
     "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-ios-app",
-    "path": ".github/workflows/maestro.yml",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-ios-app",
-    "path": ".maestro/flows/deep-link-session-key.yaml",
-    "pattern": "jwt",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-kotlin-sdk",
-    "path": "src/test/resources/com/vonage/client/kt/application_key",
-    "pattern": "private_key",
     "note": "Potential match; secret material intentionally not stored."
   }
 ]
