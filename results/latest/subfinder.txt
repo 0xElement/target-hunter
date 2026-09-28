@@ -622,6 +622,7 @@ mail.ausea02.vbcforteams.vonage.com
 mail.ausea31.vbcforteams.vonage.com
 mail.auswa03.vbcforteams.vonage.com
 mail.dashboard.vonage.com
+mail.idp.dev.vonage.com
 mail.messaging.internal-apps.vonage.com
 mail.newenv.dev.serverless.vonage.com
 mail.newenv.qa.serverless.vonage.com
@@ -629,6 +630,7 @@ mail.prod.odcr.internal-apps.vonage.com
 mail.pstnhub.vbcforteams.vonage.com
 mail.pstnhub2.vbcforteams.vonage.com
 mail.qa.developer.vonage.com
+mail.qa.serverless.vonage.com
 mail.tls.vbcforteams.vonage.com
 mail.use1.serverless.vonage.com
 mail1209.send.vonage.com
@@ -1090,6 +1092,7 @@ www.dev.ai.vonage.com
 www.enterprisetraining.vonage.com
 www.example.qa.serverless.vonage.com
 www.hackathon.vonage.com
+www.idp.dev.vonage.com
 www.keeper-automator.ite.vonage.com
 www.kronos.vonage.com
 www.launchpadtest.vonage.com
@@ -1107,6 +1110,7 @@ www.pstnhub.vbcforteams.vonage.com
 www.pstnhub2.vbcforteams.vonage.com
 www.qa.ai.vonage.com
 www.qa.developer.vonage.com
+www.qa.serverless.vonage.com
 www.recordings.vonage.com
 www.refer.vonage.com
 www.supplier.vonage.com
