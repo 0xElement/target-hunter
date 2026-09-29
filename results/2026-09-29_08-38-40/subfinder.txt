@@ -1039,7 +1039,6 @@ vonage-scheduler.neru.kn.dev.serverless.vonage.com
 vonage-scheduler.neru.knative.dev.serverless.vonage.com
 vonage-voice.neru.kn.dev.serverless.vonage.com
 vonage-voice.neru.knative.dev.serverless.vonage.com
-vonage.com
 vonage.enterpriseportal.vonage.com
 vpc-sre-cl-prod-failover.logs.vonage.com
 vsupport.vonage.com
