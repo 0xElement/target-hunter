@@ -1,5 +1,11 @@
 [
   {
+    "repository": "Vonage/gosrvlib",
+    "path": "pkg/awssecretcache/awssecretcache.go",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-node-sdk",
     "path": "packages/auth/__tests__/__dataSets__/signature.ts",
     "pattern": "api_key_hint",
@@ -110,12 +116,6 @@
   {
     "repository": "Vonage/vonage-cli",
     "path": "src/ux/dumpAuth.js",
-    "pattern": "private_key",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-dotnet-sdk",
-    "path": "Vonage.Test/Common/TestHelpers/TokenHelper.cs",
     "pattern": "private_key",
     "note": "Potential match; secret material intentionally not stored."
   }
