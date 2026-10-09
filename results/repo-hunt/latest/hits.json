@@ -1,5 +1,11 @@
 [
   {
+    "repository": "Vonage/vonage-video-api-web-samples",
+    "path": "SIP/js/config.js",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-cli",
     "path": "__tests__/test.private.key",
     "pattern": "private_key",
@@ -111,12 +117,6 @@
     "repository": "Vonage/vonage-python-code-snippets",
     "path": ".env.dist",
     "pattern": "api_key_hint",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-ruby-sdk",
-    "path": "test/private_key.txt",
-    "pattern": "private_key",
     "note": "Potential match; secret material intentionally not stored."
   }
 ]
