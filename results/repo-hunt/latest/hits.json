@@ -1,5 +1,23 @@
 [
   {
+    "repository": "Vonage/vonage-video-android-app",
+    "path": ".github/workflows/maestro.yml",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-ios-app",
+    "path": ".github/workflows/maestro.yml",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-video-ios-app",
+    "path": ".maestro/flows/deep-link-session-key.yaml",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-video-api-web-samples",
     "path": "SIP/js/config.js",
     "pattern": "internal_host",
@@ -93,18 +111,6 @@
     "repository": "Vonage/gosrvlib",
     "path": "pkg/awssecretcache/awssecretcache.go",
     "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-ios-app",
-    "path": ".github/workflows/maestro.yml",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-video-ios-app",
-    "path": ".maestro/flows/deep-link-session-key.yaml",
-    "pattern": "jwt",
     "note": "Potential match; secret material intentionally not stored."
   },
   {
