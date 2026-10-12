@@ -1,5 +1,23 @@
 [
   {
+    "repository": "Vonage/vonage-cli",
+    "path": "__tests__/test.private.key",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-cli",
+    "path": "__tests__/utils/coercePrivateKey.test.js",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-cli",
+    "path": "src/ux/dumpAuth.js",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-video-android-app",
     "path": ".github/workflows/maestro.yml",
     "pattern": "internal_host",
@@ -21,24 +39,6 @@
     "repository": "Vonage/vonage-video-api-web-samples",
     "path": "SIP/js/config.js",
     "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-cli",
-    "path": "__tests__/test.private.key",
-    "pattern": "private_key",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-cli",
-    "path": "__tests__/utils/coercePrivateKey.test.js",
-    "pattern": "private_key",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-cli",
-    "path": "src/ux/dumpAuth.js",
-    "pattern": "private_key",
     "note": "Potential match; secret material intentionally not stored."
   },
   {
