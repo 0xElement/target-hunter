@@ -1,5 +1,11 @@
 [
   {
+    "repository": "Vonage/vonage-node-sdk",
+    "path": "packages/auth/__tests__/__dataSets__/signature.ts",
+    "pattern": "api_key_hint",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-cli",
     "path": "__tests__/test.private.key",
     "pattern": "private_key",
@@ -177,12 +183,6 @@
     "repository": "Vonage/vonage-python-sdk",
     "path": "network_number_verification/tests/data/token_request.json",
     "pattern": "jwt",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-node-sdk",
-    "path": "packages/auth/__tests__/__dataSets__/signature.ts",
-    "pattern": "api_key_hint",
     "note": "Potential match; secret material intentionally not stored."
   },
   {
