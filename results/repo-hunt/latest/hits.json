@@ -1,5 +1,11 @@
 [
   {
+    "repository": "Vonage/cloud-runtime-cli",
+    "path": "tests/integration/docker-compose.yml",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-video-react-native-sdk",
     "path": ".github/workflows/ci-ios27-validation.yml",
     "pattern": "internal_host",
@@ -206,12 +212,6 @@
   {
     "repository": "Vonage/vonage-video-api-web-samples",
     "path": "SIP/js/config.js",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/gosrvlib",
-    "path": "pkg/awssecretcache/awssecretcache.go",
     "pattern": "internal_host",
     "note": "Potential match; secret material intentionally not stored."
   }
