@@ -118,9 +118,5 @@
     "path": ".maestro/flows/deep-link-session-key.yaml",
     "pattern": "jwt",
     "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/ml-transformers-native-docs",
-    "error": "HTTP Error 504: Gateway Timeout"
   }
 ]
