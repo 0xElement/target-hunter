@@ -1,5 +1,23 @@
 [
   {
+    "repository": "Vonage/vonage-java-code-snippets",
+    "path": ".env-example",
+    "pattern": "private_key",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-java-code-snippets",
+    "path": ".env-example",
+    "pattern": "jwt",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
+    "repository": "Vonage/vonage-node-sdk",
+    "path": "packages/auth/__tests__/__dataSets__/signature.ts",
+    "pattern": "api_key_hint",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-video-android-app",
     "path": ".github/workflows/maestro.yml",
     "pattern": "internal_host",
@@ -87,12 +105,6 @@
     "repository": "Vonage/vonage-cli",
     "path": "src/ux/dumpAuth.js",
     "pattern": "private_key",
-    "note": "Potential match; secret material intentionally not stored."
-  },
-  {
-    "repository": "Vonage/vonage-node-sdk",
-    "path": "packages/auth/__tests__/__dataSets__/signature.ts",
-    "pattern": "api_key_hint",
     "note": "Potential match; secret material intentionally not stored."
   },
   {
