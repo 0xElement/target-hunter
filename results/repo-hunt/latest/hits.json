@@ -1,5 +1,11 @@
 [
   {
+    "repository": "Vonage/vonage-video-api-web-samples",
+    "path": "SIP/js/config.js",
+    "pattern": "internal_host",
+    "note": "Potential match; secret material intentionally not stored."
+  },
+  {
     "repository": "Vonage/vonage-java-code-snippets",
     "path": ".env-example",
     "pattern": "private_key",
