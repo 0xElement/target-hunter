@@ -133,8 +133,10 @@
   },
   {
     "repository": "Vonage/rtpengine",
-    "path": "el/mediaproxy-ng.sysconfig",
-    "pattern": "internal_host",
-    "note": "Potential match; secret material intentionally not stored."
+    "error": "HTTP Error 403: rate limit exceeded"
+  },
+  {
+    "repository": "Vonage/sippy",
+    "error": "HTTP Error 403: rate limit exceeded"
   }
 ]
