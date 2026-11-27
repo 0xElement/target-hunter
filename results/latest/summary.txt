@@ -1,7 +1,7 @@
 Target: vonage.com
-Run: 2026-11-26_11-00-37
-Hosts: 1630
-Live services: 298
-JS/endpoints: 337192
+Run: 2026-11-27_10-58-31
+Hosts: 1604
+Live services: 319
+JS/endpoints: 298237
 
 Automation is reconnaissance/passive discovery only.
